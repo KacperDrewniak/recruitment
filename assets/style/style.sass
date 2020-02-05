@@ -179,6 +179,7 @@ footer
         text-align: center
 // RWD
 
+// Tablet
 @media (max-width: 768px)
     nav ul
         display: none
@@ -189,6 +190,7 @@ footer
             justify-content: space-between
             display: flex
             img
+                cursor: pointer
                 font-size: 50px
 
     header .wrapper,
@@ -205,6 +207,8 @@ footer
             margin: 20px auto
             font-size: 10px
             width: 95%
+
+// Phone
 @media (max-width:360px)
     header
         height: auto
@@ -212,6 +216,7 @@ footer
             p
                 width: 80%
             h1
+                margin-top: 50px
                 font-size: 25px
             *
                 margin: 10px
@@ -223,3 +228,13 @@ footer
 
     form p
         font-size: 15px
+    footer
+        ul 
+            flex-direction: column
+            text-align: center
+            font-size: 15px
+            li 
+                margin: 5px 
+                padding: 10px
+        img 
+            margin: 10px
