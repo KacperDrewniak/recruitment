@@ -271,4 +271,32 @@ footer h4 {
     width: 95%;
   }
 }
+
+@media (max-width: 360px) {
+  header {
+    height: auto;
+  }
+  header .wrapper p {
+    width: 80%;
+  }
+  header .wrapper h1 {
+    font-size: 25px;
+  }
+  header .wrapper * {
+    margin: 10px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 15px;
+  }
+  aside {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form p {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
